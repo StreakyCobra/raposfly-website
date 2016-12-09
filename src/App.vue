@@ -8,11 +8,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                        </button>
-                        <router-link class="navbar-brand" to="/" exact>
-                            <img style="float: left; display:inline-block; height: 1.5em;"src="/static/favicon.png" />
-                            <span style="display: inline-block;">raposfly</span>
-                        </router-link>
+                    </button>
+                    <router-link class="navbar-brand" to="/" exact>
+                        <img style="float: left; display:inline-block; height: 1.5em;"src="/static/favicon.png" />
+                        <span style="display: inline-block;">raposfly</span>
+                    </router-link>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -20,7 +20,13 @@
                             <router-link to="/about">{{ $t('About') }}</router-link>
                         </router-link>
                     </ul>
-                </div><!--/.nav-collapse -->
+                    <div class="navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a @click="$language.set('en')">EN</a></li>
+                            <li><a @click="$language.set('fr')">FR</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </nav>
 
