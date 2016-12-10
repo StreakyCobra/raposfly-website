@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <div id="app">
+        <div id="background"></div>
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -11,7 +12,7 @@
                     </button>
                     <router-link class="navbar-brand" :to="{name: 'home'}" exact>
                         <img style="float: left; display:inline-block; height: 1.5em;"src="/static/favicon.png" />
-                        <span style="display: inline-block;">raposfly</span>
+                        <span style="display: inline-block;"> raposfly</span>
                     </router-link>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
@@ -30,7 +31,7 @@
             </div>
         </nav>
 
-        <div id="app" class="container-fluid">
+        <div id="view" class="container-fluid">
             <router-view></router-view>
         </div>
     </div>
@@ -67,9 +68,47 @@
      font-weight: bold;
  }
 
+ #background {
+     z-index: -1;
+     position: fixed;
+     height: 100vh;
+     width: 100vw;
+     /* background-color: #eff6e5; */
+ }
+
+ #background:after {
+     content: "";
+     position: absolute;
+     width: 100%;
+     margin-top: 50px;
+     height: 100%;
+     background: #c5dfa4;
+     background: -webkit-linear-gradient(#c5dfa4, white); /* For Safari 5.1 to 6.0 */
+     background: -o-linear-gradient(#c5dfa4, white); /* For Opera 11.1 to 12.0 */
+     background: -moz-linear-gradient(#c5dfa4, white); /* For Firefox 3.6 to 15 */
+     background: linear-gradient(#c5dfa4, white); /* Standard syntax */
+     background-repeat: no-repeat;
+ }
+
  #app {
-     padding-top: 50px;
      font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+ }
+
+ #view {
+     padding-top: 50px;
+     font-size: 1.2em;
+ }
+
+ .bold {
+     font-weight: bold;
+ }
+
+ .italic {
+     font-style: italic;
+ }
+
+ .underline {
+     text-decoration: underline;
  }
 
 </style>
