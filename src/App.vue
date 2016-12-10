@@ -26,6 +26,10 @@
                     </ul>
                     <div class="navbar-right">
                         <ul class="nav navbar-nav">
+                            <li data-toggle="collapse" data-target=".navbar-collapse.in">
+                                <a href="//demo.raposfly.com"><i class="fa fa-globe"></i> {{ $t('demo') }}</a>
+                            </li>
+                            <li class="divider-vertical"></li>
                             <li><a @click="set_lang('en')">EN</a></li>
                             <li><a @click="set_lang('fr')">FR</a></li>
                         </ul>
@@ -125,6 +129,19 @@
 
  .underline {
      text-decoration: underline;
+ }
+
+ .navbar .divider-vertical {
+     height: 30px;
+     margin: 10px 9px;
+     border-right: 1px solid #4a4a4a;
+     border-left: 1px solid #4a4a4a;
+ }
+
+ @media (max-width: 767px) {
+     .navbar-collapse .nav > .divider-vertical {
+         display: none;
+     }
  }
 
 </style>
