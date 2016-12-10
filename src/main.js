@@ -4,6 +4,7 @@ import App from './App'
 import Home from './components/Home'
 import About from './components/About'
 import language from './language'
+require('bootstrap')
 import 'bootstrap/dist/css/bootstrap.css'
 import 'font-awesome/css/font-awesome.css'
 
