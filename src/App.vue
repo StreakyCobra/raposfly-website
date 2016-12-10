@@ -27,7 +27,7 @@
                     <div class="navbar-right">
                         <ul class="nav navbar-nav">
                             <li data-toggle="collapse" data-target=".navbar-collapse.in">
-                                <a href="//demo.raposfly.com"><i class="fa fa-globe"></i> {{ $t('demo') }}</a>
+                                <a href="//demo.raposfly.com"><i class="fa fa-laptop"></i> {{ $t('demo') }}</a>
                             </li>
                             <li class="divider-vertical"></li>
                             <li><a @click="set_lang('en')">EN</a></li>
@@ -129,6 +129,10 @@
 
  .underline {
      text-decoration: underline;
+ }
+
+ .navbar-inverse {
+     border-color: transparent !important;
  }
 
  .navbar .divider-vertical {
