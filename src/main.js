@@ -9,13 +9,29 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 Vue.use(VueRouter)
 const routes = [
-    { path: '/', component: Home },
-    { path: '/about/', component: About }
+    {
+        path: '/:lang',
+        name: 'home',
+        component: Home
+    },
+    {
+        path: '/:lang/about',
+        name: 'about',
+        component: About
+    },
+    {
+        path: '*',
+        redirect: '/en'
+    }
 ]
 
 const router = new VueRouter({
     mode: 'history',
     routes: routes
+})
+
+router.afterEach((to, from) => {
+    language.set(to.params.lang)
 })
 
 Object.defineProperties(Vue.prototype, {
