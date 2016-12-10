@@ -38,8 +38,12 @@
             </div>
         </nav>
 
-        <div id="view" class="container-fluid">
+        <div id="view" class="container">
             <router-view></router-view>
+            <hr />
+            <footer>
+                <p><i class="fa fa-copyright"></i> Fabien Dubosson 2016</p>
+            </footer>
         </div>
     </div>
 </template>
@@ -146,6 +150,11 @@
      .navbar-collapse .nav > .divider-vertical {
          display: none;
      }
+ }
+
+ footer {
+     color: #4a4a4a;
+     font-size: 0.8em;
  }
 
 </style>
