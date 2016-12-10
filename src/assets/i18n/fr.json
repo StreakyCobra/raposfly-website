@@ -4,15 +4,18 @@
         "slogan": "Point de vente Raspberry Pi à la volée.",
         "opensource": {
             "title": "Open-Source",
-            "description": "TODO"
+            "description": "Raposfly est un projet open-source et toutes le sources sont disponibles sur GitHub. Le projet est actuellement distribué sous une license GPLv3, donc vous êtes libre de télécharger et de l'utiliser pour toute usage."
         },
         "documentation": {
             "title": "Documentation",
-            "description": "TODO"
+            "description": "Toutes les étapes nécessaires pour installer raposfly sur le Raspberry Pi sont documentées. Cela est utile pour toutes les personnes intéressées à comprendre les étapes requises, mais aussi pour les gens qui veulent savoir comment répliquer certaines fonctionnalitées pour leurs propres projets."
         },
         "download": {
             "title": "Téléchargement",
-            "description": "TODO"
+            "description": "Une image facile d'utilisation pour le Raspberry Pi est distribuée avec chaque version. Cela permet d'installer et d'utiliser le logiciel sans avoir besoins de comprendre toutes les étapes d'installation."
+        },
+        "technologies": {
+
         }
     },
     "demo": "Démo",

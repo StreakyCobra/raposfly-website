@@ -4,15 +4,15 @@
         "slogan": "Raspberry Pi Point of Sale on the Fly",
         "opensource": {
             "title": "Open-Source",
-            "description": "TODO"
+            "description": "Raposfly is an open-source project and all the sources are available on GitHub. The project is currently shared under the GPLv3 License, so you are free to download it and use it for any purpose."
         },
         "documentation": {
             "title": "Documentation",
-            "description": "TODO"
+            "description": "All the steps needed to install raposfly on the Raspberry Pi are documented. This is usefull for people interested to understand all the steps, but also for people wanting to know how to replicate some of the functionalities for their own project."
         },
         "download": {
             "title": "Download",
-            "description": "TODO"
+            "description": "An easy-to-use installation image for the Raspberry Pi is provided with each release. This allow you to install and use the software without having to understand all the installation steps."
         }
     },
     "demo": "Demo",
