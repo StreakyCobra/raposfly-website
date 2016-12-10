@@ -12,26 +12,28 @@
                 <h2></h2>
             </div>
         </div>
-        <div class="col-md-4 highlighted">
-            <a href="https://github.com/StreakyCobra/raposfly">
-                <center><i class="fa fa-github"></i></center>
-                <h2>{{ $t('home.opensource.title') }}</h2>
-                <p>{{ $t('home.opensource.description') }}</p>
-            </a>
-        </div>
-        <div class="col-md-4 highlighted">
-            <a href="https://github.com/StreakyCobra/raposfly/tree/master/doc">
-                <center><i class="fa fa-book"></i></center>
-                <h2>{{ $t('home.documentation.title') }}</h2>
-                <p>{{ $t('home.documentation.description') }}</p>
-            </a>
-        </div>
-        <div class="col-md-4 highlighted">
-            <a href="https://github.com/StreakyCobra/raposfly">
-                <center><i class="fa fa-download"></i></center>
-                <h2>{{ $t('home.download.title') }}</h2>
-                <p>{{ $t('home.download.description') }}</p>
-            </a>
+        <div class="row">
+            <div class="col-md-4 highlighted">
+                <a href="https://github.com/StreakyCobra/raposfly">
+                    <center><i class="fa fa-github"></i></center>
+                    <h2>{{ $t('home.opensource.title') }}</h2>
+                    <p>{{ $t('home.opensource.description') }}</p>
+                </a>
+            </div>
+            <div class="col-md-4 highlighted">
+                <a href="https://github.com/StreakyCobra/raposfly/tree/master/doc">
+                    <center><i class="fa fa-book"></i></center>
+                    <h2>{{ $t('home.documentation.title') }}</h2>
+                    <p>{{ $t('home.documentation.description') }}</p>
+                </a>
+            </div>
+            <div class="col-md-4 highlighted">
+                <a href="https://github.com/StreakyCobra/raposfly">
+                    <center><i class="fa fa-download"></i></center>
+                    <h2>{{ $t('home.download.title') }}</h2>
+                    <p>{{ $t('home.download.description') }}</p>
+                </a>
+            </div>
         </div>
     </div>
 </template>
