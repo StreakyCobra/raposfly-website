@@ -1,6 +1,8 @@
 <template>
     <div class="container">
-        <h1>{{ $t('Home') }}</h1>
+        <img class="img-responsive center-block" src="/static/logo_full.png" />
+        <p class="bold italic">&gt;&gt; {{ $t('Raspberry Pi Point of Sale on the Fly.') }}</p>
+        <hr />
     </div>
 </template>
 

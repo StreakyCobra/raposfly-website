@@ -94,6 +94,13 @@
      font-family: 'Montserrat', Helvetica, Arial, sans-serif;
  }
 
+ hr {
+     border-color: #4a4a4a !important;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border: 0;
+ }
+
  #view {
      padding-top: 50px;
      font-size: 1.2em;
