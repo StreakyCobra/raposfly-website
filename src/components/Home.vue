@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="page-header">
+        <div>
             <img class="img-responsive center-block" src="/static/logo_full.png" />
             <p class="bold italic">&gt;&gt; {{ $t('home.slogan') }}</p>
         </div>
