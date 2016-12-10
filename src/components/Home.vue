@@ -28,7 +28,7 @@
                 </a>
             </div>
             <div class="col-md-4 highlighted">
-                <a href="https://github.com/StreakyCobra/raposfly">
+                <a href="https://github.com/StreakyCobra/raposfly/releases">
                     <center><i class="fa fa-download"></i></center>
                     <h2>{{ $t('home.download.title') }}</h2>
                     <p>{{ $t('home.download.description') }}</p>
