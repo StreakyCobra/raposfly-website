@@ -1,4 +1,9 @@
 {
-    "About": "About",
-    "Home": "Home"
+    "home": {
+        "slogan": "Raspberry Pi Point of Sale on the Fly"
+    },
+    "about": {
+        "nav": "About",
+        "title": "About"
+    }
 }

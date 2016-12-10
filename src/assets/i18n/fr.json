@@ -1,4 +1,9 @@
 {
-    "About": "A propos",
-    "Home": "Accueil"
+    "home": {
+        "slogan": "Point de vente Raspberry Pi à la volée."
+    },
+    "about": {
+        "nav": "À propos",
+        "title": "À propos"
+    }
 }
