@@ -17,7 +17,10 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <router-link to="about" tag="li" active-class="active" exact data-toggle="collapse" data-target=".navbar-collapse.in">
+                        <router-link :to="{name: 'home'}" tag="li" active-class="active" exact data-toggle="collapse" data-target=".navbar-collapse.in">
+                            <router-link :to="{name: 'home'}">{{ $t('home.nav') }}</router-link>
+                        </router-link>
+                        <router-link :to="{name: 'about'}" tag="li" active-class="active" exact data-toggle="collapse" data-target=".navbar-collapse.in">
                             <router-link :to="{name: 'about'}">{{ $t('about.nav') }}</router-link>
                         </router-link>
                     </ul>

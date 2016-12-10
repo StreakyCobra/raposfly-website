@@ -1,5 +1,6 @@
 {
     "home": {
+        "nav": "Accueil",
         "slogan": "Raspberry Pi Point of Sale on the Fly",
         "opensource": {
             "title": "Open-Source",
