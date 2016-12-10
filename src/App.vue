@@ -86,7 +86,7 @@
      background: -webkit-linear-gradient(#c5dfa4, white); /* For Safari 5.1 to 6.0 */
      background: -o-linear-gradient(#c5dfa4, white); /* For Opera 11.1 to 12.0 */
      background: -moz-linear-gradient(#c5dfa4, white); /* For Firefox 3.6 to 15 */
-     background: linear-gradient(#c5dfa4, white); /* Standard syntax */
+     background: linear-gradient(#d3e7b9, white); /* Standard syntax */
      background-repeat: no-repeat;
  }
 
@@ -94,16 +94,22 @@
      font-family: 'Montserrat', Helvetica, Arial, sans-serif;
  }
 
- hr {
-     border-color: #4a4a4a !important;
-     margin-top: 20px;
-     margin-bottom: 20px;
-     border: 0;
- }
-
  #view {
      padding-top: 50px;
      font-size: 1.2em;
+     color: #4a4a4a;
+     text-align: justify;
+ }
+
+
+ hr {
+     border-color: #4a4a4a !important;
+     margin-top: 20px !important;
+     margin-bottom: 20px !important;
+ }
+
+ .page-header {
+     border-color: #4a4a4a !important;
  }
 
  .bold {
