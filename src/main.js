@@ -2,7 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App'
 import Home from './components/Home'
-import About from './components/About'
 import language from './language'
 require('bootstrap')
 import 'bootstrap/dist/css/bootstrap.css'
@@ -14,11 +13,6 @@ const routes = [
         path: '/:lang',
         name: 'home',
         component: Home
-    },
-    {
-        path: '/:lang/about',
-        name: 'about',
-        component: About
     },
     {
         path: '*',
