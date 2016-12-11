@@ -1,16 +1,9 @@
 <template>
     <div>
+        <span class="anchor" id="home"></span>
         <div>
             <img class="img-responsive center-block" src="/static/logo_full.png" />
             <p class="bold italic">&gt;&gt; {{ $t('home.slogan') }}</p>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <h2></h2>
-            </div>
-            <div class="col-md-6">
-                <h2></h2>
-            </div>
         </div>
         <div class="row">
             <div class="col-md-4 highlighted">
@@ -35,11 +28,23 @@
                 </a>
             </div>
         </div>
+
+
+        <span class="anchor" id="project"></span>
+        <h1>The project</h1>
+        <div class="row">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.</p>
+        </div>
+
+
+        <span class="anchor" id="features"></span>
         <h1>Features</h1>
         <div class="row">
             <div class="col-md-6">
-                <h2>auie</h2>
-                Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.
+                <h2>On the fly</h2>
+                <ul>
+                    <li></li>
+                </ul>
             </div>
             <div class="col-md-4 col-md-offset-1 image">
                 <img src="../assets/placeholder.png" class="img-responsive center-block" />
@@ -50,8 +55,23 @@
                 <img src="../assets/placeholder.png" class="img-responsive center-block" />
             </div>
             <div class="col-md-6 col-md-offset-1">
-                <h2>auie</h2>
+                <h2>Responsive</h2>
                 Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.
+            </div>
+        </div>
+
+
+        <span class="anchor" id="features"></span>
+        <h1 id="technologies">technologies</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>On the fly</h2>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-md-offset-1 image">
+                <img src="../assets/placeholder.png" class="img-responsive center-block" />
             </div>
         </div>
     </div>
@@ -95,4 +115,11 @@
  .row {
      margin-bottom: 2em;
  }
+
+ .anchor{
+     display: block;
+     height: 50px;
+     margin-top: -50px;
+     visibility: hidden;
+}
 </style>
