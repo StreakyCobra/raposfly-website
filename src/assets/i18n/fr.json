@@ -14,8 +14,11 @@
             "title": "Téléchargement",
             "description": "Une image facile d'utilisation pour le Raspberry Pi est distribuée avec chaque version. Cela permet d'installer et d'utiliser le logiciel sans avoir besoins de comprendre toutes les étapes d'installation."
         },
-        "technologies": {
-
+        "project": {
+            "nav": "Projet"
+        },
+        "features": {
+            "nav": "Fonctionnalités"
         }
     },
     "demo": "Démo",

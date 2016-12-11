@@ -13,6 +13,12 @@
         "download": {
             "title": "Download",
             "description": "An easy-to-use installation image for the Raspberry Pi is provided with each release. This allow you to install and use the software without having to understand all the installation steps."
+        },
+        "project": {
+            "nav": "Project"
+        },
+        "features": {
+            "nav": "Features"
         }
     },
     "demo": "Demo",
