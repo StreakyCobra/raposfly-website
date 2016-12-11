@@ -41,13 +41,8 @@
 </template>
 
 <script>
- import Home from './components/Home'
-
  export default {
      name: 'app',
-     components: {
-         Home
-     },
      methods: {
          set_lang: function (lang) {
              const route = Object.assign({}, this.$route)
