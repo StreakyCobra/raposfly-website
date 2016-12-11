@@ -21,6 +21,10 @@
         "features": {
             "nav": "Fonctionnalités",
             "title": "Fonctionnalités"
+        },
+        "technologies": {
+            "nav": "Technologies",
+            "title": "Technologies"
         }
     },
     "demo": "Démo",
