@@ -17,9 +17,6 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <router-link :to="{name: 'home', hash: '#home'}" tag="li" exact data-toggle="collapse" data-target=".navbar-collapse.in">
-                            <router-link :to="{name: 'home', hash: '#home'}">{{ $t('home.nav') }}</router-link>
-                        </router-link>
                         <router-link :to="{name: 'home', hash: '#project'}" tag="li" exact data-toggle="collapse" data-target=".navbar-collapse.in">
                             <router-link :to="{name: 'home', hash: '#project'}">{{ $t('home.project.nav') }}</router-link>
                         </router-link>
