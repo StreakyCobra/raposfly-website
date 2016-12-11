@@ -17,16 +17,16 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <router-link :to="{name: 'home', hash: '#home'}" tag="li" active-class="active" exact data-toggle="collapse" data-target=".navbar-collapse.in">
+                        <router-link :to="{name: 'home', hash: '#home'}" tag="li" exact data-toggle="collapse" data-target=".navbar-collapse.in">
                             <router-link :to="{name: 'home', hash: '#home'}">{{ $t('home.nav') }}</router-link>
                         </router-link>
-                        <router-link :to="{name: 'home', hash: '#project'}" tag="li" active-class="active" exact data-toggle="collapse" data-target=".navbar-collapse.in">
+                        <router-link :to="{name: 'home', hash: '#project'}" tag="li" exact data-toggle="collapse" data-target=".navbar-collapse.in">
                             <router-link :to="{name: 'home', hash: '#project'}">{{ $t('home.project.nav') }}</router-link>
                         </router-link>
-                        <router-link :to="{name: 'home', hash: '#features'}" tag="li" active-class="active" exact data-toggle="collapse" data-target=".navbar-collapse.in">
+                        <router-link :to="{name: 'home', hash: '#features'}" tag="li" exact data-toggle="collapse" data-target=".navbar-collapse.in">
                             <router-link :to="{name: 'home', hash: '#features'}">{{ $t('home.features.nav') }}</router-link>
                         </router-link>
-                        <router-link :to="{name: 'home', hash: '#technologies'}" tag="li" active-class="active" exact data-toggle="collapse" data-target=".navbar-collapse.in">
+                        <router-link :to="{name: 'home', hash: '#technologies'}" tag="li" exact data-toggle="collapse" data-target=".navbar-collapse.in">
                             <router-link :to="{name: 'home', hash: '#technologies'}">{{ $t('home.technologies.nav') }}</router-link>
                         </router-link>
                     </ul>
