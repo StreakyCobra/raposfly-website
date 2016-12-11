@@ -22,7 +22,12 @@ const routes = [
 
 const router = new VueRouter({
     mode: 'history',
-    routes: routes
+    routes: routes,
+    scrollBehavior (to, from, savedPosition) {
+        if (to.hash) {
+            return {selector: to.hash}
+        }
+    }
 })
 
 router.afterEach((to, from) => {
