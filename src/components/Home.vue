@@ -29,6 +29,7 @@
             </div>
         </div>
 
+        <hr class="sep" />
 
         <span class="anchor" id="project"></span>
         <h1>{{ $t('home.project.title') }}</h1>
@@ -36,6 +37,7 @@
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.</p>
         </div>
 
+        <hr class="sep" />
 
         <span class="anchor" id="features"></span>
         <h1>{{ $t('home.features.title') }}</h1>
@@ -101,10 +103,15 @@
      margin-bottom: 2em;
  }
 
- .anchor{
+ .anchor {
      display: block;
      height: 50px;
      margin-top: -50px;
      visibility: hidden;
-}
+ }
+
+ .sep {
+     margin-left: 25%;
+     margin-right: 25%;
+ }
 </style>
