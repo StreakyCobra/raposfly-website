@@ -51,7 +51,7 @@
         <div class="row">
             <div class="col-md-6">
                 <h2>Self-contained, a.k.a «On the fly»</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.</p>
+                <p>The project has been designed from the beginning to be self-contained. You can set up a Raposfly point of sales anywhere where a power-plug is available: you don't need any sort of internet access. The size of the whole system is small, so you can take it anywhere with you in a breath. You don't have a computer? You forgot your tablet? No problem, you can also use your phone to use it!</p>
             </div>
             <div class="col-md-4 col-md-offset-1 image">
                 <img src="../assets/placeholder.png" class="img-responsive center-block" />
