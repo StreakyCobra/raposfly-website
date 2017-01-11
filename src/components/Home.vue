@@ -69,7 +69,7 @@
         <div class="row">
             <div class="col-md-6">
                 <h2>Android integration</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.</p>
+                <p>The Raposfly project integrates especially well with Android. First you can use it from your favourite browser by accessing the «raposfly.shop» address. If you want to quickly access the website next time, you can add a shortcut to your home screen. This will not only add a shorcut to your home screen, but the application will open without the address bar on top so you will have more space for the shop. Finally an Android application is available on the Play Store that will do the same as the shortcut, but which handle even better small annoying behaviours such as the double-tap that zoom in the browser version, but that are understood as two clicks on the application.</p>
             </div>
             <div class="col-md-4 col-md-offset-1 image">
                 <img src="../assets/placeholder.png" class="img-responsive center-block" />
