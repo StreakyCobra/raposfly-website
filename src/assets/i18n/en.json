@@ -16,7 +16,8 @@
         },
         "project": {
             "nav": "Project",
-            "title": "The Project"
+            "title": "The Project",
+            "description": "TODO"
         },
         "features": {
             "nav": "Features",
