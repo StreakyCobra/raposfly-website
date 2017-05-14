@@ -43,12 +43,12 @@
 
         <div class="spacer"></div>
 
-        <span class="anchor" id="project"></span>
-        <h1>{{ $t('home.project.title') }}</h1>
+        <!-- <span class="anchor" id="project"></span> -->
+        <!-- <h1>{{ $t('home.project.title') }}</h1> -->
 
-        <div class="row">
-            <p>{{ $t('home.project.description') }}</p>
-        </div>
+        <!-- <div class="row"> -->
+        <!--     <p>{{ $t('home.project.description') }}</p> -->
+        <!-- </div> -->
 
         <div class="spacer"></div>
 
