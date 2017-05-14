@@ -2,17 +2,18 @@
     "home": {
         "nav": "Home",
         "slogan": "Raspberry Pi Point of Sale on the Fly",
+        "warning": "This project is currently in an early stage (version < 1.0). The information given here may be outdated.",
         "opensource": {
             "title": "Open-Source",
             "description": "Raposfly is an open-source project and all the sources are available on GitHub. The project is currently shared under the GPLv3 License, so you are free to download it and use it for any purpose."
         },
-        "documentation": {
-            "title": "Documentation",
-            "description": "All the steps needed to install raposfly on the Raspberry Pi are documented. This is usefull for people interested to understand all the steps, but also for people wanting to know how to replicate some of the functionalities for their own project."
-        },
         "download": {
             "title": "Download",
-            "description": "An easy-to-use installation image for the Raspberry Pi is provided with each release. This allow you to install and use the software without having to understand all the installation steps."
+            "description": "An easy-to-use installation image for the Raspberry Pi will be provided with each release starting from version 1.0 . This will allow you to install and use the software without having to understand all the manual installation steps."
+        },
+        "documentation": {
+            "title": "Documentation",
+            "description": "All the steps needed to install raposfly on the Raspberry Pi are documented. This is usefull for people interested to understand how it works, but also for people wanting to replicate some of the functionalities in their own projects."
         },
         "project": {
             "nav": "Project",
@@ -24,7 +25,7 @@
             "title": "Features",
             "self-contained": {
                 "title": "Self-contained, a.k.a «On the fly»",
-                "description": "The project has been designed from the beginning to be self-contained. You can set up a Raposfly point of sales anywhere where a power-plug is available: you don't need any sort of internet access. The size of the whole system is small, so you can take it anywhere with you in a breath. If you want to set up a Point of Sale on the fly for a one-time event, this project is for you!"
+                "description": "The project has been designed from the beginning to be self-contained. You can set up a Raposfly point of sales anywhere where a power-plug is available: you don't need any sort of internet access. The size of the whole system is small, so you can take it anywhere with you in a breath. If you want to set up a Point of Sale on the fly for a yearly event, this project is for you!"
             },
             "responsive": {
                 "title": "Responsive shop",
@@ -32,19 +33,19 @@
             },
             "android": {
                 "title": "Android integration",
-                "description": "The Raposfly project integrates especially well with Android. First you can use it from your favourite browser by accessing the «raposfly.shop» address. If you want to quickly access the website next time, you can add a shortcut to your home screen. This will not only add a shorcut to your home screen, but the application will open without the address bar on top so you will have more space for the shop. Finally an Android application is available on the Play Store that will do the same as the shortcut, but which handle even better some small and annoying behaviours such as the double-tap that zoom in the browser version, but that are understood as two clicks on the application."
+                "description": "The Raposfly project integrates especially well with Android. First you can use it from your favourite browser by accessing the «http://raposfly.shop» address. If you want to quickly access the website, you can add it as a shortcut to your home screen. This will not only add a shortcut to your home screen, but the application will open without the address bar on top so you will have more space for the shop. Finally, an Android application will be available in the Play Store, which will offer a full experience of raposfly."
             },
             "customizable": {
                 "title": "Customizable",
-                "description": "The shop is not comming with a predefined database because every event is different and have different items and prices. So you have a full control over the shop: categories and items can be added/removed, can have their own colors, can be sorted and so on. You can customize, for each item independentely, what kind of grouping should be done for tickets printing. You can also customize the name of the event and eventually add a logo."
+                "description": "You have full control over the shop: categories and items can be added/removed, can have their own colors, can be sorted arbitrarily, and so on. You can customize, for each item independently, what kind of grouping should be done for tickets printing. You can also customize the name of the event, and in the future even add a logo on the tickets."
             },
             "easy": {
                 "title": "Easy to use",
-                "description": "Using the shop for selling items is easy. For now the preparation phase is less polished, but this is done only once, by one person, before the event. Once the event is starting, using the shop is like a breaze, for every people that will be chief of the point of sale during the day. Click on the items, press the purchase button, get the money and give the tickets in exchange. Done, and another happy customer!"
+                "description": "Using the shop is easy. For now the preparation phase is less polished, but this has to be done only once by the organizer, before the event. Once the event has started, using the shop is like a breeze for all the people using the point of sale. Select the items, press the purchase button, get the money and give the tickets. Done, nothing more, nothing less, and another happy customer!"
             },
             "stats": {
                 "title": "Statistics and history",
-                "description": "TODO"
+                "description": "One benefit of using an electronic point of sale is that the history of purchases is kept automatically, so it is possible to consult the purchases after the event, it is possible to delete a wrong purchase during the event, or even to print a receipt for a given purchase on demand. Raposfly also provide basic statistics in real-time such as the total sales, a timeline graphs of the sales, or a per-item count of the sales."
             }
         }
     },
