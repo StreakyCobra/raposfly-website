@@ -37,14 +37,16 @@
 
         <div class="spacer"></div>
 
+        <img src="../assets/project.png" class="img-responsive center-block" />
+
+        <div class="spacer"></div>
+
         <span class="anchor" id="project"></span>
         <h1>{{ $t('home.project.title') }}</h1>
 
         <div class="row">
             <p>{{ $t('home.project.description') }}</p>
         </div>
-
-        <img src="../assets/project.png" class="img-responsive center-block" />
 
         <div class="spacer"></div>
 
