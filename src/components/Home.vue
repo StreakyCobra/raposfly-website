@@ -7,14 +7,13 @@
         </div>
 
         <div class="spacer"></div>
-        <div class="sep"></div>
-        <div class="spacer"></div>
 
         <div class="row">
             <div class="col-md-4 highlighted">
                 <a href="https://github.com/StreakyCobra/raposfly">
                     <center><i class="fa fa-github"></i></center>
                     <h2>{{ $t('home.opensource.title') }}</h2>
+                    <hr />
                     <p>{{ $t('home.opensource.description') }}</p>
                 </a>
             </div>
@@ -22,6 +21,7 @@
                 <a href="https://github.com/StreakyCobra/raposfly/tree/master/doc">
                     <center><i class="fa fa-book"></i></center>
                     <h2>{{ $t('home.documentation.title') }}</h2>
+                    <hr />
                     <p>{{ $t('home.documentation.description') }}</p>
                 </a>
             </div>
@@ -29,12 +29,13 @@
                 <a href="https://github.com/StreakyCobra/raposfly/releases">
                     <center><i class="fa fa-download"></i></center>
                     <h2>{{ $t('home.download.title') }}</h2>
+                    <hr />
                     <p>{{ $t('home.download.description') }}</p>
                 </a>
             </div>
         </div>
 
-        <div class="sep"></div>
+        <div class="spacer"></div>
 
         <span class="anchor" id="project"></span>
         <h1>{{ $t('home.project.title') }}</h1>
