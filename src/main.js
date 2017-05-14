@@ -2,10 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App'
 import Home from './components/Home'
-import language from './language'
-require('bootstrap')
+import i18n from './language'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'font-awesome/css/font-awesome.css'
+require('bootstrap')
 
 Vue.use(VueRouter)
 const routes = [
@@ -31,15 +31,7 @@ const router = new VueRouter({
 })
 
 router.afterEach((to, from) => {
-    language.set(to.params.lang)
-})
-
-Object.defineProperties(Vue.prototype, {
-    $language: {
-        get: function () {
-            return language
-        }
-    }
+    i18n.locale = to.params.lang
 })
 
 /* eslint-disable no-new */
@@ -47,5 +39,6 @@ new Vue({
     el: '#app',
     template: '<App/>',
     components: { App },
-    router: router
+    router,
+    i18n
 })
