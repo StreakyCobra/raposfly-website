@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+
+  raposfly-website:
+    build: .
+    ports:
+      - 8201:80
