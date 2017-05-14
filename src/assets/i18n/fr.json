@@ -16,15 +16,12 @@
         },
         "project": {
             "nav": "Projet",
-            "title": "Le Projet"
+            "title": "Le Projet",
+            "description": "TODO"
         },
         "features": {
             "nav": "Fonctionnalités",
             "title": "Fonctionnalités"
-        },
-        "technologies": {
-            "nav": "Technologies",
-            "title": "Technologies"
         }
     },
     "demo": "Démo",
