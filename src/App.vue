@@ -42,7 +42,7 @@
             <router-view></router-view>
             <hr />
             <footer>
-                <p><i class="fa fa-copyright"></i> Fabien Dubosson 2016</p>
+                <p><i class="fa fa-copyright"></i> Fabien Dubosson 2016-2017</p>
             </footer>
         </div>
     </div>
