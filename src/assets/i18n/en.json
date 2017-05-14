@@ -17,8 +17,8 @@
         },
         "project": {
             "nav": "Project",
-            "title": "The Project",
-            "description": "TODO"
+            "title": "The project",
+            "description": ""
         },
         "features": {
             "nav": "Features",
@@ -45,7 +45,7 @@
             },
             "stats": {
                 "title": "Statistics and history",
-                "description": "One benefit of using an electronic point of sale is that the history of purchases is kept automatically, so it is possible to consult the purchases after the event, it is possible to delete a wrong purchase during the event, or even to print a receipt for a given purchase on demand. Raposfly also provide basic statistics in real-time such as the total sales, a timeline graphs of the sales, or a per-item count of the sales."
+                "description": "One benefit of using an electronic point of sale is that the history of purchases is kept automatically, so it is possible to consult the purchases after the event, it is possible to delete a wrong purchase during the event, or even to print a receipt for a given purchase on demand. Raposfly also provide real-time statistics such as the total sales, a timeline graphs of the sales, or a per-item count of the sales."
             }
         }
     },

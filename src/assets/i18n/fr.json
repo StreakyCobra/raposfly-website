@@ -1,1 +1,53 @@
-{}
+{
+    "home": {
+        "nav": "Accueil",
+        "slogan": "Point de vente Raspberry Pi à la volée",
+        "warning": "Ce projet est actuellement en phase initiale (version < 1.0). Les informations fournies ici peuvent être passées de date.",
+        "opensource": {
+            "title": "Open-Source",
+            "description": "Raposfly est un projet open-source et toutes les sources sont disponibles sur GitHub. Le projet est actuellement partagé sous la licence GPLv3, vous êtes donc libre de le télécharger et de l'utiliser pour quoi bon vous semble."
+        },
+        "download": {
+            "title": "Téléchargement",
+            "description": "Une image facile d'installation pour le Rapsberry Pi sera fournie avec chaque mise à jour depuis la version 1.0 . Cela vous permettra d'installer et d'utiliser le produit sans avoir à comprendre toutes les étapes d'installation manuelles."
+        },
+        "documentation": {
+            "title": "Documentation",
+            "description": "Toutes les étapes pour installer Raposfly sur le Raspberry Pi sont documentées. Cela est utile pour les gens qui sont intéressés à comprendre comment cela marche, mais aussi pour les gens qui souhaitent répliquer certaines fonctionnalités dans leurs propres projets."
+        },
+        "project": {
+            "nav": "Le projet",
+            "title": "Le projet",
+            "description": "TODO"
+        },
+        "features": {
+            "nav": "Fonctionnalités",
+            "title": "Fonctionnalités",
+            "self-contained": {
+                "title": "Autonome, ou \"à la volée\"",
+                "description": "Le projet a été construit depuis le début pour être autonome. Vous pouvez installer un point de vente Raposfly à n'importe quel endroit où une prise de courant est disponible: Il n'y a pas besoin d'accès internet. La taille du système complet et relativement petite, ce qui permet de le prendre à n'importe quel endroit en un courant d'air. Si vous voulez installer un point de vente lors d'un évènement annuel, ce projet est pour vous!"
+            },
+            "responsive": {
+                "title": "Affichage dynamique",
+                "description": "Le magasin est accessible depuis n'importe quel appareil compatible avec le wifi, et l'affichage s'adapte à la taille de l'écran. Vous n'aurez donc pas à zoomer entre les différentes parties de l'écran pour l'utiliser. Cela signifie aussi que le site s'adapte à l'orientation de votre appareil. Tout ceci est pratique par exemple si vous avez oublié votre ordinateur ou si votre tablette n'a plus de batterie, car vous pourrez toujours utiliser votre téléphone pour continuer à utiliser le magasin."
+            },
+            "android": {
+                "title": "Integration à Android",
+                "description": "Le projet Raposfly s'intègre particulièrement bien avec Android. Premièrement vous pouvez l'utiliser depuis votre navigateur préféré en accédant à «http://raposfly.shop». Si vous voulez y accéder rapidement vous pouvez ajouter le site comme raccourci sur l'écran d'accueil. Cela ne va pas seulement ajouter le raccourci, mais l'application s'ouvrira sans la barre d'adresse au sommet, ce qui libère de la place sur l'écran. Finalement, une application Android sera disponible sur le Play Store, celle-ci vous offrira une expérience Raposfly complète."
+            },
+            "customizable": {
+                "title": "Personnalisable",
+                "description": "Vous avez un contrôle complet sur le magasin: catégories et articles peuvent-être ajoutés/supprimés, peuvent avoir leur propre couleur, peuvent-être triés arbitrairement, etc. Vous pouvez personnaliser, pour chaque article indépendamment, si les ticket doivent être imprimés ou non. Vous pouvez aussi personnaliser le nom de l'évènement, et dans le futur peut-être même ajouter un logo sur les tickets."
+            },
+            "easy": {
+                "title": "Facile à utiliser",
+                "description": "Le magasin est facile à utiliser. Pour l'instant la préparation est moins aboutie, mais cela ne doit être fait qu'une seule fois avant l'évènement, par l'organisateur. D'une fois que l'évènement a démarré, le magasin s'utilise aussi simplement que l'on respire: sélectionner les articles, appuyer sur le bouton acheter, effectuer la transaction et donner les tickets. Rien de plus, rien de moins, et un client satisfait de plus!"
+            },
+            "stats": {
+                "title": "Statistiques et historique",
+                "description": "Un avantage à utiliser un point de vente électronique est l'historique des ventes qui est gardé automatiquement. Il est donc possible de consulter les ventes après l'évènement, de corriger les erreurs durant l'évènement, ou même d'imprimer une quittance pour une vente donné à la demande. Raposfly fourni aussi des statistiques en temps réel sure les ventes totales, la progression temporelle des ventes, ou un décompte des ventes par articles."
+            }
+        }
+    },
+    "demo": "Démo"
+}
