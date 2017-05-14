@@ -21,13 +21,32 @@
         },
         "features": {
             "nav": "Features",
-            "title": "Features"
+            "title": "Features",
+            "self-contained": {
+                "title": "Self-contained, a.k.a «On the fly»",
+                "description": "The project has been designed from the beginning to be self-contained. You can set up a Raposfly point of sales anywhere where a power-plug is available: you don't need any sort of internet access. The size of the whole system is small, so you can take it anywhere with you in a breath. If you want to set up a Point of Sale on the fly for a one-time event, this project is for you!"
+            },
+            "responsive": {
+                "title": "Responsive shop",
+                "description": "The shop is accessible from any wifi-enabled device and the display adapts to the size of the screen. So you will not have to zoom between the different parts of the screen in order to use it. This also means the website is adapting to portrait and landscape modes. This is nice because if you have forgotten you laptop, or your tablet goes out of power, you can still use your phone to continue using the shop!"
+            },
+            "android": {
+                "title": "Android integration",
+                "description": "The Raposfly project integrates especially well with Android. First you can use it from your favourite browser by accessing the «raposfly.shop» address. If you want to quickly access the website next time, you can add a shortcut to your home screen. This will not only add a shorcut to your home screen, but the application will open without the address bar on top so you will have more space for the shop. Finally an Android application is available on the Play Store that will do the same as the shortcut, but which handle even better some small and annoying behaviours such as the double-tap that zoom in the browser version, but that are understood as two clicks on the application."
+            },
+            "customizable": {
+                "title": "Customizable",
+                "description": "The shop is not comming with a predefined database because every event is different and have different items and prices. So you have a full control over the shop: categories and items can be added/removed, can have their own colors, can be sorted and so on. You can customize, for each item independentely, what kind of grouping should be done for tickets printing. You can also customize the name of the event and eventually add a logo."
+            },
+            "easy": {
+                "title": "Easy to use",
+                "description": "Using the shop for selling items is easy. For now the preparation phase is less polished, but this is done only once, by one person, before the event. Once the event is starting, using the shop is like a breaze, for every people that will be chief of the point of sale during the day. Click on the items, press the purchase button, get the money and give the tickets in exchange. Done, and another happy customer!"
+            },
+            "stats": {
+                "title": "Statistics and history",
+                "description": "TODO"
+            }
         }
     },
-    "demo": "Demo",
-    "about": {
-        "nav": "About",
-        "title": "About",
-        "content": "TODO"
-    }
+    "demo": "Demo"
 }

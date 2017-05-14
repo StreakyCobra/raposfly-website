@@ -4,7 +4,7 @@
         "slogan": "Point de vente Raspberry Pi à la volée.",
         "opensource": {
             "title": "Open-Source",
-            "description": "Raposfly est un projet open-source et toutes le sources sont disponibles sur GitHub. Le projet est actuellement distribué sous une license GPLv3, donc vous êtes libre de télécharger et de l'utiliser pour toute usage."
+            "description": "Raposfly est un projet open-source et toutes les sources sont disponibles sur GitHub. Le projet est actuellement distribué sous une license GPLv3, vous êtes donc libres de le télécharger et de l'utiliser, et ce quelqu'en soit la raison."
         },
         "documentation": {
             "title": "Documentation",
