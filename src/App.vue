@@ -23,9 +23,6 @@
                         <router-link :to="{name: 'home', hash: '#features'}" tag="li" exact data-toggle="collapse" data-target=".navbar-collapse.in">
                             <router-link :to="{name: 'home', hash: '#features'}">{{ $t('home.features.nav') }}</router-link>
                         </router-link>
-                        <router-link :to="{name: 'home', hash: '#technologies'}" tag="li" exact data-toggle="collapse" data-target=".navbar-collapse.in">
-                            <router-link :to="{name: 'home', hash: '#technologies'}">{{ $t('home.technologies.nav') }}</router-link>
-                        </router-link>
                     </ul>
                     <div class="navbar-right">
                         <ul class="nav navbar-nav">
