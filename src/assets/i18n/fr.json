@@ -2,7 +2,7 @@
     "home": {
         "nav": "Accueil",
         "slogan": "Point de vente Raspberry Pi à la volée",
-        "warning": "Ce projet est actuellement en phase initiale (version < 1.0). Les informations fournies ici peuvent être passées de date.",
+        "warning": "Ce projet est actuellement en phase initiale (version < 1.0). Les informations fournies ici peuvent avoir changé.",
         "opensource": {
             "title": "Open-Source",
             "description": "Raposfly est un projet open-source et toutes les sources sont disponibles sur GitHub. Le projet est actuellement partagé sous la licence GPLv3, vous êtes donc libre de le télécharger et de l'utiliser pour quoi bon vous semble."
