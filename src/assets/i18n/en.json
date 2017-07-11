@@ -2,7 +2,7 @@
     "home": {
         "nav": "Home",
         "slogan": "Raspberry Pi Point of Sale on the Fly",
-        "warning": "This project is currently in an early stage (version < 1.0). The information given here may have changed.",
+        "warning": "This project is currently in an early stage (version < 1.0). The information given here may be outdated.",
         "opensource": {
             "title": "Open-Source",
             "description": "Raposfly is an open-source project and all the sources are available on GitHub. The project is currently shared under the GPLv3 License, so you are free to download it and use it for any purpose."
